@@ -1,0 +1,161 @@
+ // loccitane_mobile.scss
+
+@media screen and (max-width:767px){
+    
+    //headBox 영역 ====================================================================
+      #headBox{padding: 25px 30px 0; height: 80px; 
+      &.action{position:fixed; z-index: 500; left: 0; top:0; 
+               height: 100px; padding: 20px 30px 0;} 
+      
+        .upgnb{height: 40px;
+        >h1{margin-top:-5px; width: 155px; height: 40px;}
+        
+        .search_bar{width: 70px; height: 20px; 
+          font-size:8px;
+          >i{line-height: 20px; }}
+        input[type^="t"]{width: 50px; height: 20px; }
+        button{width: 20px; height:20px; font-size: 0.75rem; }
+
+        .icon_img_01{width: 25px; height: 25px; font-size:18px}
+        .icon_img_02{width: 25px; height: 25px; margin-right:10px; font-size:18px}
+
+
+       }//upgnb
+       
+       .gnb{ display: none;}
+
+       }//headBox
+ 
+ 
+       //viewBox 영역 ====================================================================
+       #viewBox{padding:180px 30px 0; height: 560px; 
+       #slide_form{width: 230px;}
+       #slide_form>h3{margin-bottom:-15px; width: 230px; height: 65px;
+                   font-size: 24px; }
+       #slide_form>p{margin-bottom:17px; width: 100%; 
+                   font-size:16px; line-height: 20px; word-break: keep-all;}
+       #slide_form>p:last-child{float:right; margin-right:0px; width: 85px; height: 23px;
+                               font-size:12px; line-height: 25px;}
+       
+       }//viewBox
+       
+       
+       //conBox 공통영역
+       .boxes{
+       padding: 115px 87px;
+       >h2{width: 200px; height: 25px; line-height: 25px;
+       margin-bottom: 25px;
+       font-size: 22px;}
+       }//boxes
+       
+ 
+       //conBox_01 영역 ==================================================================
+       #conBox_01{
+ 
+       >.con_Btn{width: 88%;
+       .next{width: 45px; height: 45px; font-size: 45px}
+       .prev{width: 45px; height: 45px; font-size: 45px}
+       }//btn
+   
+       >ul{height: 365px; }
+       >ul>li{width:100%; 
+       &:nth-child(2),
+       &:nth-child(3),
+       &:nth-child(4){display: none;}
+              } //li
+ 
+   
+       >ul>li>a>div{margin-bottom: 10px;
+                    height: 250px; }
+
+       
+       
+       >ul>li>a p{font-size: 14px; margin-bottom: 5px;
+       &:nth-of-type(1){ font-size:18px;}
+       &:nth-of-type(3){font-size: 14px;}
+
+       }//ul>li>a p
+   }//conBox_01
+   
+ 
+       //conBox_02 영역 ==================================================================
+       #conBox_02{
+ 
+       >ul{min-width: 304px; min-height: 365px; }
+       >ul>li{margin-bottom:14px; width: 100%; height: 145px;}
+       >ul>li:nth-child(1){width: 100%; height: 145px; margin-bottom: 14px; }
+       >ul>li:nth-child(2){margin-bottom:0;}
+       >ul>li:nth-child(3),
+       >ul>li:nth-child(4),
+       >ul>li:nth-child(5){display: none;}
+   
+       >ul>li>a>span{font-size: 10px; line-height: 15px;}
+       >ul>li:first-child>a>span{font-size: 10px; line-height: 15px;}
+   
+   }//conBox_02
+ 
+   //conBox_03 영역 ==================================================================
+       #conBox_03{
+ 
+       >ul{min-width: 304px; min-height: 365px; }
+       >ul>li{margin-bottom:14px; width: 100%; height: 145px;}
+       >ul>li:nth-child(2){margin-bottom:0;}
+ 
+   
+       >ul>li>a>span{font-size: 10px; line-height: 15px;}
+ 
+ }//conBox_03
+ 
+ //conBox_04 영역 ==================================================================
+       #conBox_04{
+ 
+       >.shop_img{float:none; margin: auto; width: 304px; height: 145px; }
+       >.search_box{float:none; margin:auto; width: 304px; height: 190px; 
+                    padding: 45px 0;
+       >p{ margin-bottom:40px; 
+          width: 210px; height: 65px; 
+          font-size:16px; line-height: 24px;}
+   
+          input[type^="t"]{float: left; 
+            width: 220px; height: 40px; 
+            border-radius: 10px; border: 1px solid #dfdfdf;
+            background-color: #eee;}
+          input[type^="b"]{float: right; width: 50px; height: 40px; 
+            border-radius: 10px; border: 1px solid #dfdfdf;
+            background-color: #eee; text-indent: -2px;}
+
+        fieldset:first-of-type{margin-left:10px ;}
+        fieldset:first-of-type{margin-right: 10px;}
+       }//search_box
+   
+   }//conBox_04
+ 
+ 
+ //footBox 영역 ====================================================================
+       #footBox{
+ 
+       >h2{left: 0;right: 0; margin: auto; transform: translateX(-155%); 
+        top: 45px; width: 75px; height: 15px; }
+       
+       >ul{top: 75px; width: 330px; height: 160px; 
+      
+       li{margin:2% 9% 0 9%; 
+          width: 100px; height: 100%; font-size: 8px;text-align: center;}
+       li:nth-child(3){display: none;}
+
+       li>dl{width:100px; }
+       li>dl>dt{font-size: 10px; }
+       li>dl>dd{font-size: 8px; line-height:20px;}
+       li>dl>dd>a{font-size: 8px; line-height:20px;}
+
+        }//ul
+
+      
+       >address>p{top:270px; font-size: 6px; }
+ 
+
+       }//footBox
+ 
+ 
+ 
+ } //미디어쿼리

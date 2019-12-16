@@ -1,0 +1,380 @@
+/* loccitane_main.css */
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+#wrap { width: 100%; height: 100%; background-color: #ccc; }
+
+body { font-family: 'NanumSquare', sans-serif; }
+
+.normal { font-weight: 400; }
+
+.bold { font-weight: 700; }
+
+.bolder { font-weight: 800; }
+
+.light { font-weight: 300; }
+
+#headBox { position: relative; padding: 40px 150px 0; box-sizing: border-box; width: 100%; height: 170px; background-color: #ffcb00; transition: all 500ms ease; }
+
+#headBox.action { position: fixed; z-index: 500; left: 0; top: 0; height: 100px; padding: 30px 150px 0; }
+
+#headBox .upgnb { width: 100%; height: 84px; }
+
+#headBox .upgnb > h1 { position: absolute; left: 0; right: 0; z-index: 100; margin: auto; width: 250px; height: 45px; background-image: url("../../img/loccitane/logo_img.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+
+#headBox .upgnb > h1 a { display: block; width: 100%; height: 100%; }
+
+#headBox .upgnb .search_bar { float: left; width: 200px; height: 35px; border: 1px solid #aaa; border-radius: 10px; font-size: 25px; overflow: hidden; }
+
+#headBox .upgnb .search_bar > i { float: right; line-height: 35px; margin-right: 20px; }
+
+#headBox .upgnb .search_bar a { display: block; width: 100%; height: 100%; }
+
+#headBox .upgnb input[type^="t"] { float: left; width: 155px; height: 35px; background-color: #fff; border: none; }
+
+#headBox .upgnb button { float: right; width: 45px; height: 35px; background-color: #fff; font-size: 1.5rem; }
+
+#headBox .upgnb .icon_img_01 { float: right; width: 30px; height: 30px; margin-right: 30px; font-size: 30px; text-align: center; }
+
+#headBox .upgnb a { display: block; width: 100%; height: 100%; }
+
+#headBox .upgnb .icon_img_02 { float: right; width: 30px; height: 30px; margin-right: 2rem; font-size: 30px; text-align: center; }
+
+#headBox .upgnb .icon_img_02 a { display: block; width: 100%; height: 100%; }
+
+#headBox .gnb { margin: auto; width: auto; height: auto; text-align: center; }
+
+#headBox .gnbM > li { display: inline-block; width: auto; height: 40px; position: relative; z-index: 100; margin-right: 50px; font-size: 18px; }
+
+#headBox .gnbM > li:nth-child(1) a { width: 137px; }
+
+#headBox .gnbM > li:nth-child(2) a { width: 95px; }
+
+#headBox .gnbM > li:nth-child(3) a { width: 95px; }
+
+#headBox .gnbM > li:nth-child(4) a { width: 126px; }
+
+#headBox .gnbM > li:nth-child(5) a { width: 100px; }
+
+#headBox .gnbM > li:nth-child(6) a { width: 106px; }
+
+#headBox .gnbM > li > a { display: block; width: auto; height: 40px; line-height: 40px; text-align: center; }
+
+#headBox .gnbM > li ul { position: absolute; top: 44px; left: 0; right: 0; display: none; width: auto; height: auto; background-color: #fff; border: 3px solid #ffcb00; padding-top: 10px; box-sizing: border-box; }
+
+#headBox .gnbM > li ul > li { height: auto; font-size: 13px; margin-bottom: 10px; }
+
+#headBox .gnbM > li ul > li a { height: 40px; line-height: 40px; padding: 0 5px; }
+
+#headBox .gnbM > li:last-child { margin-right: 0; }
+
+#viewBox { position: relative; padding: 250px 160px 0; box-sizing: border-box; width: 100%; height: 730px; background-color: #fff; background-image: url("../../img/loccitane/main.png"); background-repeat: no-repeat; background-position: 30% 50%; background-size: auto 100%; }
+
+#viewBox #slide_form { float: right; width: 600px; height: 100%; }
+
+#viewBox #slide_form > h3 { margin-bottom: 40px; width: 500px; height: 50px; font-size: 54px; text-align: right; text-transform: capitalize; }
+
+#viewBox #slide_form > p { margin-bottom: 40px; width: 500px; height: auto; font-size: 30px; text-align: right; line-height: 42px; }
+
+#viewBox #slide_form > p:last-child { float: right; margin-right: 105px; width: 175px; height: 40px; text-align: center; border-radius: 10px; font-size: 20px; line-height: 40px; background-color: #ffcb00; border: 1px solid #ccc; text-transform: uppercase; }
+
+#viewBox #slide_form > p:last-child > a { display: block; width: 100%; height: 100%; }
+
+.boxes { width: 100%; height: auto; padding: 170px 300px; box-sizing: border-box; }
+
+.boxes > h2 { width: 282px; height: 45px; line-height: 45px; margin-bottom: 55px; font-size: 45px; text-transform: uppercase; }
+
+#conBox_01 { position: relative; background-color: #f0ebe4; }
+
+#conBox_01 > .con_Btn { position: absolute; top: 0; bottom: 0; left: 50%; transform: translateX(-50%); margin: auto; width: 80%; height: 0; }
+
+#conBox_01 > .con_Btn .next { float: right; width: 70px; height: 70px; font-size: 70px; }
+
+#conBox_01 > .con_Btn .prev { float: left; width: 70px; height: 70px; font-size: 70px; }
+
+#conBox_01 > ul { width: auto; height: 502px; }
+
+#conBox_01 > ul > li { float: left; width: 23.5%; height: 100%; margin-right: 2%; border: 1px solid #777; box-sizing: border-box; }
+
+#conBox_01 > ul > li:last-child { margin-right: 0; }
+
+#conBox_01 > ul > li > a { display: block; width: 100%; height: 100%; }
+
+#conBox_01 > ul > li > a > div { margin-bottom: 8px; width: 100%; height: 340px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; }
+
+#conBox_01 > ul > li:nth-child(1) > a > div { background-image: url("../../img/loccitane/product_1.png"); }
+
+#conBox_01 > ul > li:nth-child(2) > a > div { background-image: url("../../img/loccitane/product_2.png"); }
+
+#conBox_01 > ul > li:nth-child(3) > a > div { background-image: url("../../img/loccitane/product_3.png"); }
+
+#conBox_01 > ul > li:nth-child(4) > a > div { background-image: url("../../img/loccitane/product_4.png"); }
+
+#conBox_01 > ul > li > a p { width: 100%; font-size: 16px; text-align: center; margin-bottom: 13px; }
+
+#conBox_01 > ul > li > a p:nth-of-type(1) { font-size: 30px; font-weight: bold; }
+
+#conBox_01 > ul > li > a p:nth-of-type(3) { font-size: 17px; font-weight: bold; }
+
+#conBox_02 { background-color: #fff; }
+
+#conBox_02 > ul { width: 100%; min-width: 1278px; height: auto; min-height: 502px; }
+
+#conBox_02 > ul > li { position: relative; float: left; margin-right: 23px; width: 343px; height: 240px; }
+
+#conBox_02 > ul > li:nth-child(1) { width: 546px; height: 502px; }
+
+#conBox_02 > ul > li:nth-child(3), #conBox_02 > ul > li:nth-child(5) { margin-right: 0; }
+
+#conBox_02 > ul > li:nth-child(5) { background-color: #ffcb00; }
+
+#conBox_02 > ul > li:nth-child(2), #conBox_02 > ul > li:nth-child(3) { margin-bottom: 22px; }
+
+#conBox_02 > ul > li:nth-child(1) { background-image: url("../../img/loccitane/promotion_1.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+#conBox_02 > ul > li:nth-child(2) { background-image: url("../../img/loccitane/promotion_2.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+#conBox_02 > ul > li:nth-child(3) { background-image: url("../../img/loccitane/promotion_3.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+#conBox_02 > ul > li:nth-child(4) { background-image: url("../../img/loccitane/promotion_4.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+#conBox_02 > ul > li > a { display: block; width: 100%; height: 100%; }
+
+#conBox_02 > ul > li > a:hover span { display: block; }
+
+#conBox_02 > ul > li > a:before { content: " "; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; background-color: rgba(0, 0, 0, 0.7); transition: all 500ms ease; }
+
+#conBox_02 > ul > li > a:hover:before { opacity: 1; }
+
+#conBox_02 > ul > li > a > span { display: none; width: 100%; height: auto; position: absolute; top: 50%; margin: auto; transform: translateY(-50%); text-align: center; font-size: 15px; color: #fff; line-height: 22px; }
+
+#conBox_02 > ul > li:first-child > a > span { font-size: 24px; line-height: 34px; }
+
+#conBox_02 > ul > li:last-child > a > span { display: block; color: #333; background-color: transparent; }
+
+#conBox_02 > ul > li:last-child > a:hover:before { display: none; }
+
+#conBox_03 { background-color: #f0ebe4; }
+
+#conBox_03 > ul { width: 100%; min-width: 1278px; height: auto; min-height: 502px; }
+
+#conBox_03 > ul > li { float: left; position: relative; z-index: 10; width: 592px; height: 502px; line-height: 34px; margin-right: 94px; background-color: #faa; }
+
+#conBox_03 > ul > li:last-child { float: right; margin-right: 0; }
+
+#conBox_03 > ul > li:nth-child(1) { background-image: url("../../img/loccitane/gift_1.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+#conBox_03 > ul > li:nth-child(2) { background-image: url("../../img/loccitane/gift_2.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+#conBox_03 > ul > li > a { display: block; width: 100%; height: 100%; }
+
+#conBox_03 > ul > li > a:hover span { display: block; }
+
+#conBox_03 > ul > li > a:before { content: " "; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; background-color: rgba(0, 0, 0, 0.7); transition: all 500ms ease; }
+
+#conBox_03 > ul > li > a:hover:before { opacity: 1; }
+
+#conBox_03 > ul > li > a > span { display: none; width: 100%; height: auto; position: absolute; top: 50%; margin: auto; transform: translateY(-50%); text-align: center; font-size: 24px; color: #fff; line-height: 34px; }
+
+#conBox_04 { background-color: #fff; }
+
+#conBox_04 > .shop_img { float: left; width: 680px; height: 500px; background-image: url("../../img/loccitane/shop.jpg"); background-repeat: no-repeat; background-position: 51% 50%; background-size: 115%; }
+
+#conBox_04 > .search_box { float: right; width: 500px; height: 500px; padding: 150px 0; box-sizing: border-box; }
+
+#conBox_04 > .search_box > p { margin: auto; margin-bottom: 50px; width: 300px; height: 118px; font-size: 27px; text-align: center; word-break: keep-all; }
+
+#conBox_04 > .search_box input[type^="t"] { float: left; width: 250px; height: 50px; border-radius: 10px; border: 1px solid #dfdfdf; background-color: #eee; }
+
+#conBox_04 > .search_box input[type^="b"] { float: right; width: 60px; height: 50px; border-radius: 10px; border: 1px solid #dfdfdf; background-color: #eee; text-indent: -2px; }
+
+#conBox_04 > .search_box fieldset:first-of-type { margin-left: 80px; }
+
+#conBox_04 > .search_box fieldset:first-of-type { margin-right: 80px; }
+
+#footBox { position: relative; width: 100%; height: 50vh; background-color: #ffcb00; }
+
+#footBox > h2 { position: absolute; left: 310px; top: 80px; width: 160px; height: 30px; background-image: url("../../img/loccitane/logo_img.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+
+#footBox > ul { position: absolute; left: 0; right: 0; margin: auto; top: 140px; width: 1275px; height: 200px; border-top: 1px solid #777; border-bottom: 1px solid #777; }
+
+#footBox > ul > li { float: left; width: 425px; height: 100%; }
+
+#footBox > ul > li > dl { width: 425px; height: 100%; }
+
+#footBox > ul > li > dl > dt { margin: 13px 0; font-size: 15px; font-weight: bold; }
+
+#footBox > ul > li > dl > dd { font-size: 13px; line-height: 23px; }
+
+#footBox > ul > li > dl > dd > a { display: block; width: 100%; height: 100%; font-size: 13px; line-height: 23px; }
+
+#footBox > address > p { position: absolute; top: 382px; margin: auto; left: 0; right: 0; font-style: normal; font-size: 12px; text-align: center; }
+
+@media screen and (max-width: 767px) { #headBox { padding: 25px 30px 0; height: 80px; }
+  #headBox.action { position: fixed; z-index: 500; left: 0; top: 0; height: 100px; padding: 20px 30px 0; }
+  #headBox .upgnb { height: 40px; }
+  #headBox .upgnb > h1 { margin-top: -5px; width: 155px; height: 40px; }
+  #headBox .upgnb .search_bar { width: 70px; height: 20px; font-size: 8px; }
+  #headBox .upgnb .search_bar > i { line-height: 20px; }
+  #headBox .upgnb input[type^="t"] { width: 50px; height: 20px; }
+  #headBox .upgnb button { width: 20px; height: 20px; font-size: 0.75rem; }
+  #headBox .upgnb .icon_img_01 { width: 25px; height: 25px; font-size: 18px; }
+  #headBox .upgnb .icon_img_02 { width: 25px; height: 25px; margin-right: 10px; font-size: 18px; }
+  #headBox .gnb { display: none; }
+  #viewBox { padding: 180px 30px 0; height: 560px; }
+  #viewBox #slide_form { width: 230px; }
+  #viewBox #slide_form > h3 { margin-bottom: -15px; width: 230px; height: 65px; font-size: 24px; }
+  #viewBox #slide_form > p { margin-bottom: 17px; width: 100%; font-size: 16px; line-height: 20px; word-break: keep-all; }
+  #viewBox #slide_form > p:last-child { float: right; margin-right: 0px; width: 85px; height: 23px; font-size: 12px; line-height: 25px; }
+  .boxes { padding: 115px 87px; }
+  .boxes > h2 { width: 200px; height: 25px; line-height: 25px; margin-bottom: 25px; font-size: 22px; }
+  #conBox_01 > .con_Btn { width: 88%; }
+  #conBox_01 > .con_Btn .next { width: 45px; height: 45px; font-size: 45px; }
+  #conBox_01 > .con_Btn .prev { width: 45px; height: 45px; font-size: 45px; }
+  #conBox_01 > ul { height: 365px; }
+  #conBox_01 > ul > li { width: 100%; }
+  #conBox_01 > ul > li:nth-child(2), #conBox_01 > ul > li:nth-child(3), #conBox_01 > ul > li:nth-child(4) { display: none; }
+  #conBox_01 > ul > li > a > div { margin-bottom: 10px; height: 250px; }
+  #conBox_01 > ul > li > a p { font-size: 14px; margin-bottom: 5px; }
+  #conBox_01 > ul > li > a p:nth-of-type(1) { font-size: 18px; }
+  #conBox_01 > ul > li > a p:nth-of-type(3) { font-size: 14px; }
+  #conBox_02 > ul { min-width: 304px; min-height: 365px; }
+  #conBox_02 > ul > li { margin-bottom: 14px; width: 100%; height: 145px; }
+  #conBox_02 > ul > li:nth-child(1) { width: 100%; height: 145px; margin-bottom: 14px; }
+  #conBox_02 > ul > li:nth-child(2) { margin-bottom: 0; }
+  #conBox_02 > ul > li:nth-child(3), #conBox_02 > ul > li:nth-child(4), #conBox_02 > ul > li:nth-child(5) { display: none; }
+  #conBox_02 > ul > li > a > span { font-size: 10px; line-height: 15px; }
+  #conBox_02 > ul > li:first-child > a > span { font-size: 10px; line-height: 15px; }
+  #conBox_03 > ul { min-width: 304px; min-height: 365px; }
+  #conBox_03 > ul > li { margin-bottom: 14px; width: 100%; height: 145px; }
+  #conBox_03 > ul > li:nth-child(2) { margin-bottom: 0; }
+  #conBox_03 > ul > li > a > span { font-size: 10px; line-height: 15px; }
+  #conBox_04 > .shop_img { float: none; margin: auto; width: 304px; height: 145px; }
+  #conBox_04 > .search_box { float: none; margin: auto; width: 304px; height: 190px; padding: 45px 0; }
+  #conBox_04 > .search_box > p { margin-bottom: 40px; width: 210px; height: 65px; font-size: 16px; line-height: 24px; }
+  #conBox_04 > .search_box input[type^="t"] { float: left; width: 220px; height: 40px; border-radius: 10px; border: 1px solid #dfdfdf; background-color: #eee; }
+  #conBox_04 > .search_box input[type^="b"] { float: right; width: 50px; height: 40px; border-radius: 10px; border: 1px solid #dfdfdf; background-color: #eee; text-indent: -2px; }
+  #conBox_04 > .search_box fieldset:first-of-type { margin-left: 10px; }
+  #conBox_04 > .search_box fieldset:first-of-type { margin-right: 10px; }
+  #footBox > h2 { left: 0; right: 0; margin: auto; transform: translateX(-155%); top: 45px; width: 75px; height: 15px; }
+  #footBox > ul { top: 75px; width: 330px; height: 160px; }
+  #footBox > ul li { margin: 2% 9% 0 9%; width: 100px; height: 100%; font-size: 8px; text-align: center; }
+  #footBox > ul li:nth-child(3) { display: none; }
+  #footBox > ul li > dl { width: 100px; }
+  #footBox > ul li > dl > dt { font-size: 10px; }
+  #footBox > ul li > dl > dd { font-size: 8px; line-height: 20px; }
+  #footBox > ul li > dl > dd > a { font-size: 8px; line-height: 20px; }
+  #footBox > address > p { top: 270px; font-size: 6px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) { #headBox { padding: 48px 50px 0; height: 180px; }
+  #headBox.action { position: fixed; z-index: 500; left: 0; top: 0; height: 100px; padding: 25px 60px 0; }
+  #headBox .upgnb { height: 50px; }
+  #headBox .upgnb > h1 { width: 230px; height: 50px; }
+  #headBox .upgnb .search_bar { width: 90px; height: 30px; border-radius: 8px; font-size: 16px; }
+  #headBox .upgnb .search_bar > i { line-height: 30px; /* margin-right: 5px; */ }
+  #headBox .upgnb input[type^="t"] { float: left; width: 60px; height: 30px; border: none; }
+  #headBox .upgnb button { width: 30px; height: 30px; font-size: 1.2rem; }
+  #headBox .upgnb .icon_img_01 { width: 43px; height: 30px; font-size: 25px; }
+  #headBox .upgnb .icon_img_02 { width: 30px; height: 30px; margin-right: 15px; font-size: 25px; }
+  #headBox .gnbM { margin-top: 35px; }
+  #headBox .gnbM > li { height: 30px; margin-right: 10px; font-size: 14px; }
+  #headBox .gnbM > li:nth-child(1) a { width: 140px; }
+  #headBox .gnbM > li:nth-child(4) a { width: 130px; }
+  #headBox .gnbM > li:nth-child(5) a { width: 100px; }
+  #headBox .gnbM > li:nth-child(6) a { width: 120px; }
+  #headBox .gnbM > li > a { height: 30px; line-height: 30px; }
+  #headBox .gnbM > li ul { position: absolute; top: 44px; left: 0; right: 0; display: none; width: auto; height: auto; background-color: #fff; border: 3px solid #ffcb00; padding-top: 10px; box-sizing: border-box; }
+  #headBox .gnbM > li ul > li { height: auto; font-size: 13px; margin-bottom: 10px; }
+  #headBox .gnbM > li ul > li a { height: 40px; line-height: 40px; padding: 0 5px; }
+  #headBox .gnbM > li:nth-child(2), #headBox .gnbM > li:nth-child(3) { display: none; }
+  #viewBox { padding: 240px 70px 0; width: 100%; height: 774px; }
+  #viewBox #slide_form { float: right; width: 300px; }
+  #viewBox #slide_form > h3 { float: right; margin-bottom: 25px; width: 200px; height: 70px; font-size: 35px; margin-left: 180px; }
+  #viewBox #slide_form > p { margin-bottom: 20px; width: 100%; font-size: 20px; line-height: 32px; }
+  #viewBox #slide_form > p:last-child { float: right; margin-right: 0px; width: 132px; height: 30px; font-size: 16px; line-height: 30px; }
+  .boxes { padding: 200px 100px; }
+  .boxes > h2 { width: 380px; height: 32px; line-height: 32px; margin-bottom: 45px; font-size: 42px; }
+  #conBox_01 > .con_Btn { width: 94%; }
+  #conBox_01 > .con_Btn .next { width: 50px; height: 50px; font-size: 50px; }
+  #conBox_01 > .con_Btn .prev { width: 50px; height: 50px; font-size: 50px; }
+  #conBox_01 > ul { height: 550px; }
+  #conBox_01 > ul > li { width: 49%; margin-right: 2%; }
+  #conBox_01 > ul > li:nth-child(2) { margin-right: 0; }
+  #conBox_01 > ul > li:nth-child(3), #conBox_01 > ul > li:nth-child(4) { display: none; }
+  #conBox_01 > ul > li > a > div { margin-bottom: 20px; height: 340px; }
+  #conBox_01 > ul > li > a p { font-size: 16px; margin-bottom: 20px; }
+  #conBox_01 > ul > li > a p:nth-of-type(1) { margin-bottom: 24px; }
+  #conBox_02 > ul { min-width: 570px; min-height: 550px; }
+  #conBox_02 > ul > li { margin-bottom: 22px; width: 100%; height: 264px; }
+  #conBox_02 > ul > li:nth-child(1) { width: 100%; height: 264px; margin-bottom: 22px; }
+  #conBox_02 > ul > li:nth-child(2) { margin-bottom: 0; }
+  #conBox_02 > ul > li:nth-child(3), #conBox_02 > ul > li:nth-child(4), #conBox_02 > ul > li:nth-child(5) { display: none; }
+  #conBox_02 > ul > li > a > span { font-size: 17px; line-height: 20px; }
+  #conBox_02 > ul > li:first-child > a > span { font-size: 17px; line-height: 20px; }
+  #conBox_03 > ul { min-width: 570px; min-height: 550px; }
+  #conBox_03 > ul > li { margin-bottom: 22px; width: 100%; height: 264px; }
+  #conBox_03 > ul > li:nth-child(2) { margin-bottom: 0; }
+  #conBox_03 > ul > li > a > span { font-size: 17px; line-height: 20px; }
+  #conBox_04 > .shop_img { float: none; margin: auto; width: 570px; height: 265px; }
+  #conBox_04 > .search_box { margin: auto; float: none; width: 570px; height: 287px; padding: 66px 0; }
+  #conBox_04 > .search_box > p { margin-bottom: 50px; width: 280px; height: 118px; font-size: 25px; text-align: center; }
+  #conBox_04 > .search_box input[type^="t"] { float: left; width: 270px; height: 50px; border-radius: 10px; border: 1px solid #dfdfdf; background-color: #eee; }
+  #conBox_04 > .search_box input[type^="b"] { float: right; width: 80px; height: 50px; border-radius: 10px; border: 1px solid #dfdfdf; background-color: #eee; text-indent: -2px; }
+  #conBox_04 > .search_box fieldset:first-of-type { margin-left: 100px; }
+  #conBox_04 > .search_box fieldset:first-of-type { margin-right: 100px; }
+  #footBox > h2 { left: 0; right: 0; margin: auto; transform: translateX(-210%); top: 40px; width: 100px; height: 30px; }
+  #footBox > ul { top: 85px; width: 570px; height: 170px; }
+  #footBox > ul li { margin: 2% 10% 0 10%; width: 165px; height: 100%; text-align: center; }
+  #footBox > ul li:nth-child(3) { display: none; }
+  #footBox > ul li > dl { width: 165px; }
+  #footBox > ul li > dl > dt { font-size: 12px; }
+  #footBox > ul li > dl > dd { font-size: 10px; line-height: 20px; }
+  #footBox > ul li > dl > dd > a { width: 100%; height: 100%; font-size: 10px; line-height: 20px; }
+  #footBox > address > p { top: 280px; font-size: 10px; text-align: center; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) { #headBox { padding: 35px 150px 0; height: 140px; }
+  #headBox.action { height: 100px; padding: 27px 110px 0; }
+  #headBox .upgnb { height: 60px; }
+  #headBox h1 { width: 230px; height: 40px; }
+  #headBox .upgnb .search_bar { width: 170px; font-size: 25px; overflow: hidden; background-color: #fff; }
+  #headBox .upgnb .search_bar > i { margin-right: 20px; }
+  #headBox .upgnb .search_bar a { display: block; width: 100%; height: 100%; }
+  #headBox .upgnb input[type^="t"] { width: 120px; }
+  #headBox .upgnb button { width: 45px; font-size: 1.5rem; }
+  #headBox .icon_img_01, #headBox .icon_img_02 { width: 30px; height: 30px; }
+  #headBox .gnb { bottom: 12px; width: 870px; height: 27px; bottom: 15px; }
+  #headBox .gnb > ul > li { margin-right: 35px; font-size: 14px; line-height: 8px; }
+  #viewBox { padding: 200px 90px 0; box-sizing: border-box; width: 100%; height: 700px; }
+  #viewBox #slide_form > h3 { margin-bottom: 20px; font-size: 36px; }
+  #viewBox #slide_form > p { margin-bottom: 30px; width: 500px; font-size: 23px; line-height: 30px; }
+  #viewBox #slide_form > p:last-child { width: 120px; height: 26px; border-radius: 10px; font-size: 18px; line-height: 28px; }
+  .boxes { padding: 85px 165px; }
+  .boxes > h2 { width: auto; height: 32px; line-height: 32px; margin-bottom: 30px; font-size: 38px; }
+  #conBox_01 > .con_Btn { width: 90%; }
+  #conBox_01 > .con_Btn .next { width: 50px; height: 50px; font-size: 50px; }
+  #conBox_01 > .con_Btn .prev { width: 50px; height: 50px; font-size: 50px; }
+  #conBox_01 > ul { width: auto; height: 408px; }
+  #conBox_01 > ul > li > a > div { height: 270px; }
+  #conBox_01 > ul > li > a p { font-size: 13px; margin-bottom: 4px; }
+  #conBox_01 > ul > li > a p:nth-of-type(1) { font-size: 24px; }
+  #conBox_01 > ul > li > a p:nth-of-type(3) { font-size: 14px; }
+  #conBox_02 > ul { margin: auto; width: 100%; min-width: 950px; height: 0; max-height: 415px; }
+  #conBox_02 > ul > li { margin-right: 18px; width: 26%; height: 48%; }
+  #conBox_02 > ul > li:nth-child(1) { width: 44%; min-width: 388px; height: 100%; }
+  #conBox_02 > ul > li:nth-child(2), #conBox_02 > ul > li:nth-child(3) { margin-bottom: 18px; }
+  #conBox_02 > ul > li > a > span { font-size: 14px; color: #fff; }
+  #conBox_02 > ul > li:first-child > a > span { font-size: 20px; }
+  #conBox_03 > ul { width: auto; min-width: 950px; height: 100%; max-height: 415px; }
+  #conBox_03 > ul > li { width: 49%; margin-right: 2%; }
+  #conBox_03 > ul > li > a > span { font-size: 20px; }
+  #conBox_04 > .shop_img { width: 470px; height: 414px; }
+  #conBox_04 > .search_box { width: 430px; height: 414px; padding: 100px 0; }
+  #conBox_04 > .search_box > p { margin-bottom: 42px; width: 320px; height: 110px; font-size: 23px; text-align: center; }
+  #conBox_04 > .search_box fieldset:first-of-type { margin-left: 50px; }
+  #conBox_04 > .search_box fieldset:first-of-type { margin-right: 50px; }
+  #footBox > h2 { left: 0; right: 0; margin: auto; transform: translateX(-265%); top: 50px; width: 160px; height: 36px; }
+  #footBox > ul { left: 0; right: 0; margin: auto; top: 120px; width: 1010px; height: 160px; }
+  #footBox > ul li { width: 327px; }
+  #footBox > ul li dl { width: 327px; }
+  #footBox > ul li dl dt { margin: 10px 0; font-size: 14px; }
+  #footBox > ul li dl dd { font-size: 12px; line-height: 20px; }
+  #footBox > ul li dl dd a { font-size: 12px; line-height: 20px; }
+  #footBox > address > p { top: 320px; font-size: 11px; } }

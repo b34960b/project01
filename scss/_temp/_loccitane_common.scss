@@ -1,0 +1,319 @@
+// loccitane_common(1920).scss
+
+$url: '../../img/loccitane/';
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+body        { font-family: 'NanumSquare', sans-serif; }
+.normal     { font-weight: 400 }
+.bold       { font-weight: 700 }
+.bolder     { font-weight: 800 }
+.light      { font-weight: 300 }
+
+
+//headBox 영역 ====================================================================
+#headBox{position:relative; 
+         padding: 40px 150px 0; 
+         box-sizing:border-box; 
+         width: 100%; height: 170px; 
+         background-color: $yellow;
+         transition: all 500ms ease;
+ &.action{position:fixed; 
+          z-index: 500; 
+          left: 0; top:0; 
+          height: 100px; padding: 30px 150px 0;}
+
+
+
+
+    .upgnb{width: 100%; height: 84px;
+    >h1{position:absolute; left:0; right:0; z-index: 100;
+        margin: auto; width: 250px; height: 45px; 
+        background-image: url($url + 'logo_img.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      a{display: block; width: 100%; height: 100%;}
+    }//h1
+    
+
+    .search_bar{float:left; width: 200px; height: 35px; 
+                border:1px solid #aaa; border-radius: 10px;
+                font-size:25px; overflow: hidden;
+            >i{float:right; line-height: 35px; margin-right: 20px;}
+            a{display: block; width: 100%; height: 100%;}
+        }
+
+    input[type^="t"]{float:left; width: 155px; height: 35px; 
+                     background-color: #fff; border: none;}
+    button{float:right; width: 45px; height: 35px; 
+           background-color: #fff; font-size: 1.5rem; }
+
+    .icon_img_01{float:right; width: 30px; height: 30px; 
+                 margin-right:30px; font-size:30px; text-align: center;}
+        a{display: block; width: 100%; height: 100%;}
+                
+    .icon_img_02{float:right; width: 30px; height: 30px; 
+                 margin-right:2rem; font-size:30px; text-align: center;
+        a{display: block; width: 100%; height: 100%;}}
+
+    }//upgnb
+    
+    .gnb{margin:auto; width:auto; height:auto; text-align: center;}
+    .gnbM>li{display: inline-block; width: auto; height: 40px; 
+             position:relative; z-index: 100; 
+             margin-right:50px; font-size: 18px; 
+    &:nth-child(1) a{width: 137px;}
+    &:nth-child(2) a{width: 95px;}
+    &:nth-child(3) a{width: 95px;}
+    &:nth-child(4) a{width: 126px;}
+    &:nth-child(5) a{width: 100px;}
+    &:nth-child(6) a{width: 106px;}
+          >a{display: block;width: auto; height: 40px;
+             line-height: 40px; text-align:center; }
+          ul{position: absolute; top:44px; left:0; right:0; 
+             display: none; width: auto; height: auto; 
+             background-color: #fff;
+             border: 3px solid $yellow; 
+             padding-top: 10px; box-sizing: border-box;}
+        ul>li{height: auto; font-size: 13px; margin-bottom: 10px;
+        a{height: 40px; line-height: 40px; padding: 0 5px;}}
+    &:last-child{margin-right:0}}
+
+}//headBox
+
+
+//viewBox 영역 ====================================================================
+#viewBox{position:relative; padding:250px 160px 0; box-sizing:border-box; 
+         width: 100%; height: 730px; 
+         background-color: #fff;
+         background-image: url( $url + 'main.png');
+         background-repeat: no-repeat;
+         background-position: 30% 50%;
+         background-size: auto 100%;
+
+         
+         
+    #slide_form{float:right; width: 600px; height: 100%;}
+    #slide_form>h3{margin-bottom:40px; width: 500px; height: 50px;
+                   font-size: 54px; text-align: right;
+                   text-transform:capitalize; }
+    #slide_form>p{margin-bottom:40px; width: 500px; height: auto;
+                  font-size:30px; text-align: right; line-height: 42px;}
+
+    #slide_form>p:last-child{float:right; margin-right:105px; 
+                             width: 175px; height: 40px;
+                             text-align: center; border-radius:10px;
+                             font-size:20px; line-height: 40px;
+                             background-color: $yellow;
+                             border:1px solid $gray;
+                             text-transform: uppercase;}
+    #slide_form>p:last-child>a{display:block; width: 100%; height: 100%;}
+    
+}//viewBox
+
+
+//conBox 공통영역
+.boxes{width: 100%; height: auto; 
+       padding: 170px 300px; box-sizing:border-box;
+ >h2{width: 282px; height: 45px; line-height: 45px;
+     margin-bottom: 55px; font-size: 45px; text-transform: uppercase;}
+}//boxes
+
+
+//conBox_01 영역 ==================================================================
+#conBox_01{position:relative; background-color: $primary; 
+
+    >.con_Btn{position:absolute; top:0; bottom:0; left:50%; 
+              transform: translateX(-50%); margin: auto;
+              width: 80%; height: 0; 
+    .next{float: right; width: 70px; height: 70px; font-size: 70px;}
+    .prev{float: left; width: 70px; height: 70px; font-size: 70px;}
+    }//btn
+
+    >ul{width: auto; height: 502px; }
+    >ul>li{float:left; width: (100%-6)/4; height: 100%; 
+           margin-right:2%; border:1px solid #777; 
+           box-sizing: border-box;} 
+    >ul>li:last-child{margin-right: 0;}
+
+    
+    >ul>li>a{display:block; width: 100%; height: 100%;}
+    >ul>li>a>div{margin-bottom: 8px;width: 100%; 
+                 height: 340px; background-repeat: no-repeat;
+                 background-position: 50% 50%;
+                 background-size: contain;}  
+    >ul>li:nth-child(1)>a>div{
+        background-image: url($url + 'product_1.png');}
+    >ul>li:nth-child(2)>a>div{
+        background-image: url($url + 'product_2.png');}
+    >ul>li:nth-child(3)>a>div{
+        background-image: url($url + 'product_3.png');}
+    >ul>li:nth-child(4)>a>div{
+        background-image: url($url + 'product_4.png');}
+    
+    
+    
+    >ul>li>a p{width: 100%; font-size: 16px; 
+               text-align:center; margin-bottom: 13px;}
+    >ul>li>a p:nth-of-type(1){font-size:30px; font-weight: bold;}
+    >ul>li>a p:nth-of-type(3){font-size:17px; font-weight: bold;}
+
+}//conBox_01
+
+
+//conBox_02 영역 ==================================================================
+#conBox_02{background-color: $white;
+
+    >ul{width:100%; min-width: 1278px; height:auto; min-height: 502px; }
+    >ul>li{position:relative; float:left; 
+           margin-right:23px; width: 343px; height: 240px; 
+           }
+    >ul>li:nth-child(1){width: 546px; height: 502px; }
+    >ul>li:nth-child(3),
+    >ul>li:nth-child(5){margin-right:0;}
+    >ul>li:nth-child(5){background-color: $yellow;}
+    >ul>li:nth-child(2),
+    >ul>li:nth-child(3){margin-bottom:22px;}
+
+    >ul>li:nth-child(1){
+        background-image: url($url + 'promotion_1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}
+    >ul>li:nth-child(2){
+        background-image: url($url + 'promotion_2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}
+    >ul>li:nth-child(3){
+        background-image: url($url + 'promotion_3.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}
+    >ul>li:nth-child(4){
+        background-image: url($url + 'promotion_4.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}
+
+    >ul>li>a{display:block; width: 100%; height: 100%;}
+    >ul>li>a:hover span{display: block;}
+    >ul>li>a:before{content: " "; 
+                    display: block; 
+                    position: absolute;
+                    top: 0; left: 0; 
+                    width: 100%; height: 100%; 
+                    opacity: 0;
+                    background-color:rgba(0,0,0,0.7); 
+                    transition:all 500ms ease; }
+    >ul>li>a:hover:before{opacity: 1;}
+    >ul>li>a>span{display: none; 
+                  width: 100%; height:auto; 
+                  position:absolute; top:50%; 
+                  margin:auto; 
+                  transform:translateY(-50%); 
+                  text-align:center; 
+                  font-size: 15px; color:#fff; 
+                  line-height: 22px;}
+    >ul>li:first-child>a>span{font-size: 24px; line-height: 34px;}
+    >ul>li:last-child>a>span{display: block; color:#333;
+                             background-color:transparent;}
+    >ul>li:last-child>a:hover:before{display: none;}
+
+
+}//conBox_02
+
+
+//conBox_03 영역 ==================================================================
+#conBox_03{background-color: $primary;
+
+    >ul{width:100%; min-width: 1278px; height:auto; min-height: 502px;}
+    >ul>li{float:left; position:relative; z-index:10;
+           width: 592px; height: 502px; line-height: 34px;
+           margin-right:94px; background-color: #faa;}
+    >ul>li:last-child{float:right; margin-right:0;}
+
+    >ul>li:nth-child(1){
+        background-image: url($url + 'gift_1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}
+
+    >ul>li:nth-child(2){
+        background-image: url($url + 'gift_2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}    
+
+    >ul>li>a{display:block; width: 100%; height: 100%;}
+    >ul>li>a:hover span{display: block;}
+    >ul>li>a:before{content: " "; display: block; 
+                    position: absolute; top: 0; left: 0; 
+                    width: 100%; height: 100%; opacity: 0;
+                    background-color:rgba(0,0,0,0.7); 
+                    transition:all 500ms ease; }
+    >ul>li>a:hover:before{opacity: 1;}
+    >ul>li>a>span{display: none; width: 100%; height:auto; 
+                  position:absolute; top:50%; margin:auto; 
+                  transform:translateY(-50%); text-align:center; 
+                  font-size: 24px; color:#fff; line-height: 34px;}
+    
+}//conBox_03
+
+
+//conBox_04 영역 ==================================================================
+#conBox_04{background-color: $white;
+
+    >.shop_img{float: left; width: 680px; height: 500px; 
+               background-image: url($url + 'shop.jpg');
+               background-repeat: no-repeat;
+               background-position: 51% 50%;
+               background-size: 115%;}
+    >.search_box{float: right; width: 500px; height: 500px; 
+                 padding: 150px 0; box-sizing: border-box;
+         >p{margin:auto; margin-bottom:50px; 
+            width: 300px; height: 118px; font-size:27px; 
+            text-align: center; word-break:keep-all}
+    
+    input[type^="t"]{float: left; 
+                     width: 250px; height: 50px; 
+                     border-radius: 10px; border: 1px solid #dfdfdf;
+                     background-color: #eee;}
+    input[type^="b"]{float: right; width: 60px; height: 50px; 
+                     border-radius: 10px; border: 1px solid #dfdfdf;
+                     background-color: #eee; text-indent: -2px;}
+
+    fieldset:first-of-type{margin-left:80px ;}
+    fieldset:first-of-type{margin-right: 80px;}
+    
+    }//search_box
+
+}//conBox_04
+
+
+
+//footBox 영역 ====================================================================
+#footBox{position:relative; width: 100%; height: 50vh; 
+         background-color: $yellow;
+    >h2{position:absolute; left: 310px; top: 80px; 
+        width: 160px; height: 30px;         
+        background-image: url($url + 'logo_img.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;}
+    
+    >ul{position:absolute; left: 0; right: 0; margin: auto;  top: 140px; 
+        width: 1275px; height: 200px; 
+        border-top:1px solid #777; 
+        border-bottom: 1px solid #777;}
+    >ul>li{float:left; width: 425px; height: 100%;}
+    >ul>li>dl{width: 425px; height: 100%;}
+    >ul>li>dl>dt{margin: 13px 0; font-size: 15px; font-weight: bold;}
+    >ul>li>dl>dd{font-size: 13px; line-height:23px;}
+    >ul>li>dl>dd>a{display:block; width:100%; height:100%; 
+                   font-size: 13px; line-height:23px;}
+
+    >address>p{position:absolute; top: 382px; 
+               margin:auto; left: 0; right: 0; font-style: normal;
+               font-size: 12px; text-align: center;}
+
+}//footBox+

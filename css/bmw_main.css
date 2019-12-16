@@ -1,0 +1,69 @@
+@charset "UFT-8";
+
+#wrap{width:1900px; height:auto; margin:auto;}
+
+
+/* common */
+.clearfix:after,
+.clearfix::after{content:" "; display:block; clear:both; width:0; height:0;}
+.hidden{display:block; overflow:hidden; position:absolute; width:0; height:0;}
+
+/* layout ================================================================== */
+
+
+/* headBox ================================================================= */
+  header {display:flex; width: 100%; height: 120px;}
+  .logo_fix{position:absolute; top:50px; left:150px; padding: 15px; width: 140px; text-align: center;  z-index: 1;
+    background-color: #E8E5E5;}
+  .logo_fix>span{font-weight:bold;}
+  nav{display:flex; width: 100%; font-size:20px; margin-left:350px; align-items:flex-end;}
+  nav>ul{padding:10px;}
+  nav>ul>li{float:left; margin-right:66px;}
+  nav>ul>li:nth-child(5){margin-left:300px;}
+  
+  
+/* conBox ================================================================== */
+
+#conBox{width:100%; height:auto;}
+.view_area{position:relative; width:100%; height:900px; z-index:0;}
+.view_area>p{position: absolute; top:600px; margin-left:119px; width:1052px; height:270px; font-size:100px; line-height:130px; color:#fff;  
+}
+
+.view_area>.scroll{width:100%; height:30px; background-color:#4f4; color:#000; text-align:center;}
+
+/* .motion_area{width:100%; height:300px; background:#3f0}; */
+
+.content_area{position:relative; padding-top:250px; width:1900px; height:1559px; box-sizing:border-box; background-color:#3af}
+
+  .innovation{margin-left:119px; width:1102px; height: auto;}
+  .innovation>.headline{position:absolute; width: 362px; height: 80px; color:#333; font-size:50px;}
+  .innovation>ul{float:left; margin-top: 100px; width: 100%; height:810px;}
+  .innovation>ul>li{float:left; width:520px; height:810px; margin-right:51px; background-color: #fff;}
+  .innovation>ul>li:last-child{margin-right:0;}
+
+  .line{float:left; margin-left: 20px; margin-top: 100px; width: 10px; height: 810px; background-color: #fa0;}
+
+  .keyword{float:left; margin-left:20px; width:535px; height:810px;}
+  .keyword>.headline{margin-bottom: 50px; width: 362px; height: 80px; color:#333; font-size:50px;}
+  .keyword>ul{width: 535px; height: 810px;}
+  .keyword>ul>li{font-size:35px; color:#333; margin-bottom: 30px;}
+  .keyword>ul>li>a{font-size:50px; color:#333;}
+
+
+
+
+
+.media_area{padding-bottom:100px; box-sizing:border-box; width:100%; height:auto; background-color:#880}
+.img{position:relative; z-index:200; margin:auto; width:1236px; height:656px; background-color:#f999}
+.video{position:relative; top:-200px; margin:auto; width:1664px; height:1100px; background-color:#fff;}
+
+
+.story_area{width:100%; height:1260px; padding-top:256px; box-sizing:border-box; background-color:#f0a}
+  .bmw_story{margin-left:119px; width:1662px; height:534px;}
+  .bmw_story>ul>li{float:left; width:815px; height:534px; margin-right:32px; background-color:#fff;}
+  .bmw_story>ul>li:last-child{margin-right:0;}
+
+
+
+/* footBox ================================================================= */
+#footBox{width:100%; height:554px; background-color:#000}

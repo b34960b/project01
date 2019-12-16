@@ -1,0 +1,168 @@
+// loccitane_tablet.scss
+
+@media screen and (min-width:768px) and (max-width:1279px){
+
+      //headBox 영역 ====================================================================
+      #headBox{padding: 48px 50px 0; height: 180px; 
+      &.action{position:fixed; z-index: 500; left: 0; top:0; 
+               height: 100px; padding: 25px 60px 0;} 
+            
+       .upgnb{height: 50px;
+       >h1{width: 230px; height: 50px;}
+
+       .search_bar{width: 90px; height: 30px; 
+                   border-radius: 8px; font-size:16px;
+            >i{line-height: 30px; /* margin-right: 5px; */}}
+       input[type^="t"]{float:left; width: 60px; height: 30px; border: none;}
+       button{width: 30px; height:30px; font-size: 1.2rem; }
+            
+      .icon_img_01{width: 43px; height: 30px; font-size:25px}
+      .icon_img_02{width: 30px; height: 30px; margin-right:15px; font-size:25px}
+      }//upgnb
+      
+      .gnbM{margin-top:35px;}
+      .gnbM>li{height: 30px; margin-right:10px; font-size: 14px; 
+        &:nth-child(1) a{width: 140px;}
+        &:nth-child(4) a{width: 130px;}
+        &:nth-child(5) a{width: 100px;}
+        &:nth-child(6) a{width: 120px;}
+            >a{height: 30px;line-height: 30px; }
+            ul{position: absolute; top:44px; left:0; right:0; 
+               display: none; width: auto; height: auto; 
+               background-color: #fff;
+               border: 3px solid $yellow; 
+               padding-top: 10px; box-sizing: border-box;}
+            ul>li{height: auto; font-size: 13px; margin-bottom: 10px;
+       a{height: 40px; line-height: 40px; padding: 0 5px;}}
+       &:nth-child(2),
+       &:nth-child(3){display: none;}
+     }//li
+      
+     }//headBox
+
+
+      //viewBox 영역 ====================================================================
+      #viewBox{padding:240px 70px 0; 
+               width: 100%; height: 774px; 
+      #slide_form{float:right; width: 300px;}
+      #slide_form>h3{float: right; margin-bottom:25px; 
+                     width: 200px; height: 70px;
+                     font-size: 35px; margin-left: 180px; }
+      #slide_form>p{margin-bottom:20px; width: 100%; 
+                    font-size:20px; line-height: 32px;}
+      #slide_form>p:last-child{float:right; margin-right:0px;  
+                               width: 132px; height: 30px;
+                               font-size:16px; line-height: 30px;}
+      
+      }//viewBox
+      
+      
+      //conBox 공통영역
+      .boxes{padding: 200px 100px;
+      >h2{width: 380px; height: 32px; line-height: 32px;
+          margin-bottom: 45px; font-size: 42px;}
+      }//boxes
+      
+
+      //conBox_01 영역 ==================================================================
+      #conBox_01{
+
+      >.con_Btn{width: 94%;
+      .next{width: 50px; height: 50px; font-size: 50px;}
+      .prev{width: 50px; height: 50px; font-size: 50px;}
+      }//btn
+  
+      >ul{height: 550px;}
+      >ul>li{width: (100%-2)/2; margin-right:2%; 
+      &:nth-child(2){margin-right: 0;}
+      &:nth-child(3),
+      &:nth-child(4){display: none;}
+      } //li
+
+  
+      >ul>li>a>div{margin-bottom: 20px;height: 340px;}
+      >ul>li>a p{font-size: 16px; margin-bottom: 20px;
+      &:nth-of-type(1){margin-bottom: 24px}
+      }//ul>li>a p
+  }//conBox_01
+  
+
+      //conBox_02 영역 ==================================================================
+      #conBox_02{
+
+      >ul{min-width: 570px; min-height: 550px; }
+      >ul>li{margin-bottom:22px; width: 100%; height: 264px;}
+      >ul>li:nth-child(1){width: 100%; height: 264px; margin-bottom: 22px; }
+      >ul>li:nth-child(2){margin-bottom:0;}
+      >ul>li:nth-child(3),
+      >ul>li:nth-child(4),
+      >ul>li:nth-child(5){display: none;}
+  
+      >ul>li>a>span{font-size: 17px; line-height: 20px;}
+      >ul>li:first-child>a>span{font-size: 17px; line-height: 20px;}
+  
+  }//conBox_02
+
+    //conBox_03 영역   ==================================================================
+      #conBox_03{
+
+      >ul{min-width: 570px; min-height: 550px; }
+      >ul>li{margin-bottom:22px; width: 100%; height: 264px;}
+      >ul>li:nth-child(2){margin-bottom:0;}
+      >ul>li>a>span{font-size: 17px; line-height: 20px;}
+
+}//conBox_03
+
+    //conBox_04 영역     ==================================================================
+      #conBox_04{
+
+      >.shop_img{float:none; margin: auto; width: 570px; height: 265px;}
+      >.search_box{margin:auto; float:none;
+                   width: 570px; height: 287px; 
+                   padding: 66px 0;
+      >p{margin-bottom:50px; 
+         width: 280px; height: 118px; 
+         font-size:25px; text-align: center;}
+  
+      input[type^="t"]{float: left; 
+                       width: 270px; height: 50px; 
+                       border-radius: 10px; border: 1px solid #dfdfdf;
+                       background-color: #eee;}
+      input[type^="b"]{float: right; width: 80px; height: 50px; 
+                       border-radius: 10px; border: 1px solid #dfdfdf;
+                       background-color: #eee; text-indent: -2px;}
+
+      fieldset:first-of-type{margin-left:100px ;}
+      fieldset:first-of-type{margin-right:100px;}
+      }//search_box
+  
+  }//conBox_04
+
+
+    //footBox 영역     ====================================================================
+      #footBox{
+
+      >h2{left: 0;right: 0; margin: auto;  
+          transform: translateX(-210%); top: 40px; 
+          width: 100px; height: 30px; }
+      
+      >ul{top: 85px; width: 570px; height: 170px; 
+      li{margin:2% 10% 0 10%; width: 165px; height: 100%; text-align: center;}
+      // li:nth-child(2){margin-left: 150px;}
+      li:nth-child(3){display: none;}
+
+      li>dl{width: 165px;}
+      li>dl>dt{font-size: 12px;}
+      li>dl>dd{font-size: 10px; line-height:20px;}
+      li>dl>dd>a{width:100%; height:100%; font-size: 10px; line-height:20px;}
+     
+      }//ul
+
+      >address>p{top: 280px; font-size: 10px; text-align: center;}
+
+      }//footBox
+
+
+
+
+} //미디어쿼리
